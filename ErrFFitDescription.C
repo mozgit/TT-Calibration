@@ -85,7 +85,7 @@ void ErrFFitDescription()
 
 
   // Creat instance of MyPdfV3 class
-  RooRealVar a("a","a",0.) ;
+  RooRealVar a("a","a",1.) ;
   RooRealVar b("b","b",1.) ;
   RooRealVar y("y","y",0.,5.);
   MyPdfV1 pdf("pdf","pdf",y,a,b) ;
